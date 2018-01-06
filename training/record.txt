@@ -1,0 +1,20 @@
+Convert all images to jpeg and create tfrecord files
+
+python build_image_data.py
+
+
+2018-01-04 07:42:28.650140 [thread 0]: Wrote 5117 images to 5117 shards.
+2018-01-04 07:42:28.897552: Finished writing all 10234 images in data set.
+
+I created the previos files then discovered that there are some defective images. I removed these images and created other TFRECORD files
+
+2018-01-04 09:26:41.060766 [thread 0]: Wrote 4683 images to ./train-00000-of-00002
+2018-01-04 09:26:41.060794 [thread 0]: Wrote 4683 images to 4683 shards.
+2018-01-04 09:26:41.191129: Finished writing all 9367 images in data set.
+
+
+run dir_tfrecord
+
+run read_tf record
+
+cd to current directory, the folder 'resized_image' should contains 9367 images with 60x45 size.

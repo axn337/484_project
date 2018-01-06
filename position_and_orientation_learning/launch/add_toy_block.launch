@@ -1,0 +1,8 @@
+<launch>
+<!--x,y,z = 1.0, -0.11, 0.8  rpy = 0,0,0.43-->
+<arg name="x"  />
+<arg name="y"  />
+<arg name="yaw"  />
+
+<node name="spawn_toy_block" pkg="gazebo_ros" type="spawn_model" args="-file $(find exmpl_models)/toy_block/toy_block.sdf -sdf -model toy_block -x $(arg x) -y $(arg y) -z 0.8  -Y $(arg yaw)" />
+</launch>

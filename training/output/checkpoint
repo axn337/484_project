@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ammarnahari/ros_ws/src/484_project/training/output/checkpoint-train.ckpt"
+all_model_checkpoint_paths: "/home/ammarnahari/ros_ws/src/484_project/training/output/checkpoint-train.ckpt"
